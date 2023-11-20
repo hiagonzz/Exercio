@@ -10,7 +10,7 @@ public class Employee {
 
     }
 
-    Employee(String name, Integer hours, double valuePerHour) {
+    public Employee(String name, Integer hours, double valuePerHour) {
         this.name = name;
         this.hours = hours;
         this.valuePerHour = valuePerHour;
